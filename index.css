@@ -219,8 +219,8 @@ header::before {
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-}
+  }
 
-.fixed-button:hover {
+  .fixed-button:hover {
     background: #c0392b;
-}
+  }
