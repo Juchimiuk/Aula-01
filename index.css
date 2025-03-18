@@ -211,12 +211,12 @@ header::before {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #e74c3c;
+    background: rgb(255, 0, 119);
     color: white;
-    padding: 15px 20px;
+    padding: 15px 45px;
     font-size: 1.2em;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
 }
