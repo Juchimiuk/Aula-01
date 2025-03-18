@@ -197,6 +197,12 @@ header::before {
     .nav-links li a {
         font-size: 1em;
     }
+    .carousel {
+        width: 100%; /* Mantém o carrossel ocupando toda a largura */
+        display: flex;
+        flex-direction: column; /* Garante que ele não sobreponha o texto */
+        align-items: center;
+    }
 }
 
 /* Botão fixo */
