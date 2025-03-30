@@ -99,7 +99,6 @@ header::before {
     animation: fadeIn 3s ease-in-out;
 }
 
-
 .carousel {
     display: flex;
     justify-content: center;
@@ -165,6 +164,7 @@ header::before {
     font-size: 1.2em;
     line-height: 1.6;
 }
+
 /* Animação de fade-in */
 @keyframes fadeIn {
     from {
@@ -219,8 +219,81 @@ header::before {
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-  }
+}
 
-  .fixed-button:hover {
+.fixed-button:hover {
+    background: rgb(196, 0, 91);
+}
+
+.cadastro-button {
+    position: fixed;
+    bottom: 20px;
+    right: 200px;
+    background: orangered;
+    color: white;
+    padding: 15px 45px;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.three-button {
+    bottom: 20px;
+    left: 200px;
+    background: orangered;
+    color: white;
+    padding: 15px 45px;
+    padding-left: 10px;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+
+/* Estilo dos botões de login */
+.login-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.login-button {
+    background: #fff;
+    color: black;
+    padding: 2px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    border: #333;
+}
+
+.login1-button {
     background: black;
-  }
+    color: white;
+    padding: 12px 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.login-button img {
+    margin-right: 8px;
+}
+
+.login-button:hover {
+    background: #f0f0f0;
+}
